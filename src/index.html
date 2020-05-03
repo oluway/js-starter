@@ -3,13 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css" />
     <title>Document</title>
 </head>
 <body>
 
     <h2 data-app-name></h2>
+ <div>
+    <section>
+      <div class="header">
+          <h1>vTender</h1>
+            <p>This program prevent/expose Curuption in awarding Government Tender based on the Request For Quotation Tender Number. <br>
+            It helps private enterpreneur, SMME to verify the authenticity of Tender, and also assist bidders to verify close tender and report discripancies in awarded tender <br>
+            </p>
+      </div>
+    </section>
+    <section id="section1">
+      <div class="flex">
+          <div><img  src="./images/verify.png" class="image-size"><br>
+            <div class="col text-center">
+              <button id="verify" class="btn btn-primary">Verify Tender</button>
+            </div>
+          </div>
+          <div><img src="./images/verify.png" class="image-size"><br>
+            <div class="col text-center">
+              <button class="btn btn-primary">Apply For Tender</button>
+            </div>
+          </div>
+      </div>
+    </section>
 
-    <script src="./index.js"></script>
-    
+    <section id="section2" class="olu">
+      <div id="panel"></div>
+    </section>
+
+     <div id="section3" class="noloader">
+
+     </div>
+ </div>
+    <script type="text/javascript" language="javascript" src="./index.js"></script>
 </body>
 </html>
